@@ -9,6 +9,9 @@ import { IoLogoElectron } from "react-icons/io5";
 import { TbDeviceCctvFilled } from "react-icons/tb";
 import { FaLaptop } from "react-icons/fa";
 import { IoIosCall } from "react-icons/io";
+import { MdOutlineMail } from "react-icons/md";
+ import Footer from '../Footer/Footer.jsx';
+
 
 const Home = () => {
   return (
@@ -41,7 +44,7 @@ const Home = () => {
 
                   <div className="d-flex ms-4 mt-4 ps-4 mt-4">
                     <div className="col-md-3 shdeule shed mt-3 text-center mt-4 mt-4 p-3">
-                      <p>Schedule an appointment</p>
+                      <p>Contact Us</p>
                     </div>
                     <div className="mt-4 mt-4 ms-4 mt-4 border col-md-3 rounded-3 text-center p-3 wu">
                       Why Us
@@ -417,13 +420,14 @@ const Home = () => {
 
             </div>
             <div className="col-md-12   mt-5">
-           <div className="row mt-5">
-            <div className="col-md-12 ps-5">   <h4 className='##091E3E ms-5 ps-5'>Schedule an Appointment</h4>
-            <p className='ms-5 ps-5 mt-3 text-secondary font-wieght'>To schedule an appointment, please fill up the form and our  team will ensure to find a <br /> suitable date and time for the meeting.</p>
-            </div>
+           <div className="row mt-5 pb-3">
+          
             
             <div className="col-md-1"></div>
-            <div className="col-md-5 ms-2  p-5 te" >
+            <div className="col-md-5 ms-2" >
+            <div className=" ">   <h4 className=''>Schedule an Appointment</h4>
+            <p className='mt-3 text-secondary font-wieght'>To schedule an appointment, please fill up the form and our  team will ensure to find a  suitable date and time for the meeting.</p>
+            </div>
               <div className="row">
                 <div className="col-md-11 d-flex p-5" style={{background:"#EEF9FF"}}>
                   <div className='mt-3'>
@@ -432,22 +436,21 @@ const Home = () => {
                   <div>
                     <div className='ms-5 text-secondary'><p>
                   <b>  Call Us Now</b></p></div>
-                    <div className='ms-5' style={{color:"#843711"}}>
-                      <h5>+91 77135 84076</h5>
+                    <div c>
+                      <h5  className='ms-5 text-danger'>+91 77135 84076</h5>
                     </div>
                   </div>
                 </div>
-                <div className="col-md-11 mt-4" style={{background:"#EEF9FF"}}>
-                <div className='mt-3'>
-                    <h2><IoIosCall className='phone-orange' /></h2>
+                <div className="col-md-11 mt-4  d-flex p-5" style={{background:"#EEF9FF"}}>
+                <div className='mt-1'>
+                    <h2><MdOutlineMail  className='phone-orange' /></h2>
                   </div>
-                  <div>
-                    <div className='ms-5 text-secondary'><p>
-                  <b>  Call Us Now</b></p></div>
-                    <div className='ms-5' style={{color:"#843711"}}>
-                      <h5>+91 77135 84076</h5>
+                  
+                  <div className='ms-5' style={{color:"#843711"}}>
+                      <h5 className='text-secondary'>Mail Us Now</h5>
+                      <div className=' text-danger'><p>
+                      <b> contact@unift.in </b></p></div>
                     </div>
-                  </div>
 
                 </div>
               </div>
@@ -455,12 +458,35 @@ const Home = () => {
            
               
             </div>
-            <div className="col-md-5"></div>
+            <div className="col-md-5 p-4 text-center " style={{background:"#EEF9FF"}}>
+              <form action="">
+                <input type="text" form="form-controll" className='p-2 m-2  ipt bg-white'placeholder='Enter Your Name' />
+                <input type="text" form="form-controll" className='p-2 m-1 ipt bg-white 'placeholder='Enter Your email' />
+
+                <input type="text" form="form-controll" className='p-2 m-2 mt-3 ipt bg-white'placeholder='Enter Your mobile' />
+                <input type="text" form="form-controll" className='p-2 m-1 ipt  bg-white 'placeholder='Enter Your address' />
+
+
+                <input type="text" form="form-controll" className='p-2 m-2 ipt  mt-3 bg-white'placeholder='Enter Your pincode' />
+                <input type="text" form="form-controll" className='p-2 m-1 ipt bg-white 'placeholder='Select State' />
+
+                <textarea name=""  className='w-100 p-4 border border-none bg-shadow mt-3  rounded-1' placeholder='Describe your problem'  id=""></textarea>
+
+                  <div className='book-Appointement col-md-12 mt-4 p-2  border  rounded-3 bg-booka'>
+                        <h5>BOOK APOINTMENT</h5>
+
+                  </div>
+
+              </form>
+            </div>
            </div>
 
               
             </div>
           </div>
+        </div>
+        <div className="col-md-12">
+          <Footer />
         </div>
       </div>
     </div>

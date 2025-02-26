@@ -203,3 +203,23 @@
   color: #843711;
 
 }
+
+.ipt{
+  width: 250px;
+  border: none;
+}
+
+::placeholder{
+  color: gray;
+  font-weight: 500;
+  
+}
+
+.bg-booka{
+  background-image: linear-gradient(315deg, #843711.0%, #f53803 74%);
+  color: white;
+}
+.bg-booka:hover{
+  background: orange;
+  color: whitesmoke;
+}
