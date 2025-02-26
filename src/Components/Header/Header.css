@@ -1,0 +1,38 @@
+li:hover {
+    color: #bb3e03;
+    cursor: pointer;
+}
+
+.shdeule{
+    border: 1px solid black;
+    height: 42px;
+    width: 270px;
+    border-radius: 7px;
+    background: #6e2c0b;
+    color: white;
+        font-family: 'Roboto', sans-serif;
+        transition: .5s;
+    box-shadow: inset 0 0 0 50px transparent;
+    border: none;
+    font-size: large;
+
+}
+li{
+    font-weight: 500;
+}
+.shdeule:hover{
+    background: #6e2c0b;
+}
+
+.linkk{
+    list-style: none;
+    text-decoration: none;
+    color: #ca6702;
+
+
+}
+
+
+
+
+

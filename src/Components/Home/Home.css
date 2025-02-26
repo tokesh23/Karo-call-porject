@@ -1,0 +1,205 @@
+.img-div {
+    position: relative;
+    display: inline-block;
+}
+
+.text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+     
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    /* text-align: center; */
+}
+ 
+.shed{
+    width: 300px;
+    height: 57px;
+    box-shadow: 10px 0px 20px  ;
+} 
+
+.wu:hover{
+    background: white;
+   color: black;
+
+}
+
+.suppoted-div{
+    background: #843711;
+    color: white;
+}
+
+.div-small{
+    border: 1px solid lightblue;
+    height: 90px;
+    width: 150px;
+    background: white;
+}
+
+#visible{
+    border: 1px solid white;
+    height: 8px;
+    width:  220px;
+    background: orangered;
+    margin-left: 600px;
+    border-radius: 10px;
+
+}
+
+.our-service{
+    text-transform: uppercase !important;
+    font-weight: 800 !important;
+}
+
+
+#visible2{
+    border: 1px solid white;
+    height: 8px;
+    width:  320px;
+    background: orangered;
+    margin-left: 580px;
+    border-radius: 10px;
+
+}
+
+.service-div{
+    border: 1px solid black;
+    height: auto;
+    width: 360px;
+ text-align: center;
+}
+
+.icon-div{
+    border: 1px solid burlywood;
+    
+    height: 70px;
+    width: 80px;
+    border-radius: 10px;
+    background: #843711;
+    color: aliceblue;
+    
+}
+
+
+
+
+
+
+/* Tokesh */
+
+
+
+
+
+ 
+  p{
+    
+
+  font-family: "Open Sans", serif;
+ font-size: large;
+
+  }
+ 
+ 
+
+#service-icon-div{
+  border: 5px solid burlywood;
+  height: 80px;
+  width: 81px;
+  background: #843711;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  
+  
+}
+
+.div-service{
+  margin-left:150px;
+}
+
+.title{
+  font-style: unset;
+  font-weight: 300;
+}
+
+.service-div{
+  border: 1px solid black;
+  height: 440px;
+  width: 370px;
+  background: white;
+  border: none;
+}
+
+.icons{
+  position: relative;
+  bottom: px;
+}
+ 
+ 
+.div-img{
+  position: relative;
+  
+}
+
+
+.text2{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+   
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  
+}
+
+#user-img{
+  border-radius: 360px;
+  height: 80px;
+  width: 80px;
+}
+
+.name-user{
+  color: #843711;
+}
+
+.conent-user{
+  font-weight: 100;
+}
+ 
+#visible3{
+
+  border: 1px solid white;
+  height: 8px;
+  width:  360px;
+  background: orangered;
+  margin-left: 600px;
+  border-radius: 10px;
+}
+.box-user{
+  width: 450px;
+  height: 340px;
+}
+
+.zerone-div{
+  border: 2px solid orangered;
+  height: 65px;
+  width: 60px;
+  border-radius: 100px;
+}
+
+.bg-whiteblue{
+  background:#EEF9FF;;
+}
+
+.font-wieght{
+  
+}
+
+.phone-orange{
+  color: #843711;
+
+}
