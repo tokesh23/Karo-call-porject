@@ -6,9 +6,9 @@ li:hover {
 .shdeule{
     border: 1px solid black;
     height: 42px;
-    width: 270px;
+    /* width: 290px; */
     border-radius: 7px;
-    background-image: linear-gradient(315deg, #843711.0%, #f53803 74%);
+    background: #6e2c0b;
     color: white;
         font-family: 'Roboto', sans-serif;
         transition: .5s;
@@ -20,6 +20,7 @@ li:hover {
 li{
     font-weight: 500;
 }
+
 .shdeule:hover{
     background: #6e2c0b;
 }
@@ -32,7 +33,131 @@ li{
 
 }
 
+.shdeule{
+    width: 270px;
+   cursor: pointer;
+    
+    transition: transform 0.5s ease-in-out;
+    
+  }
+
+  
+  .shdeule:hover {
+    animation: scaleUp 0.6s forwards;
+  }
+ 
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.7;
+    }
+    100% {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+  }
+
+#logo-img{
+  
+  height: 158px;
+  width: 160px;
+ 
+}
+
+#logo-img{
+  position: relative;
+  bottom: 13px;
+}
+
+
+
+.image-div{
+  height: 70px;
+ 
+}
+
+ 
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #f0f0f0; */
+}
+
+/* Slider Container */
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  max-width: 900px;
+  margin: auto;
+  position: relative;
+}
+
+/* Slider Styling */
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+/* Each Slide Box */
+.box-user {
+  flex: 0 0 33.333%; /* Show 3 boxes at once */
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 20px; /* Space between slides */
+}
+
+.box-user img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.name-user {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text-dark {
+  margin-top: 10px;
+  color: #555;
+}
+
+/* For Smooth Sliding */
+@keyframes slide {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
 
 
 
 
+/* Responsive */
+
+.navbar-toggler{
+  position: relative;
+  bottom: 85px;
+  left: 260px;
+}
+
+@media(max-width:767px){
+  .hshedule{
+    position: relative;
+    bottom: 80px;
+  }
+}

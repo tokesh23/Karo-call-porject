@@ -1,0 +1,92 @@
+.footer-icon{
+    color:  #843711;;
+}
+
+.bgfblue{
+    border: 1px solid;
+    height: 30px;
+    padding: 1px;
+    width: 30px;
+    background: #3b5998;
+    border-radius: 50%;
+    border: none;
+}
+.facebook{
+    color:#3b5998;
+}
+
+.bgyred{
+    border: 1px solid;
+    height: 30px;
+    padding: 0px;
+    width: 30px;
+    background: red;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    right: 2px;
+
+    }
+
+.youtube{
+    color: red;
+}
+
+.bglblue{
+
+    border: 1px solid;
+    height: 30px;
+    padding: 1px;
+    width: 30px;
+    background:#0077B5;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    right: 4px;
+}
+
+.lindin{
+    color: #0077B5;
+}
+
+.bginstagram{
+    height: 27px;
+    padding: 0px;
+    width: 27px;
+    background: linear-gradient(45deg, #F77737, #833AB4, #4D61C1, #FDCB58);
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 2px;
+}
+
+.instagram{
+    color: gray ;
+}
+ .logo-image{
+    position: relative;
+    right: 15px;
+ }
+
+ .first-div{
+    position: relative;
+    right: 50px;
+}
+   
+
+ @media(max-width:767px){
+    .designed-by{
+        position: relative;
+        right:70px;
+        bottom: 20px;
+    }
+
+    
+ .first-div{
+    position: relative;
+    left: 20px;
+    
+ }
+    
+   
+ }

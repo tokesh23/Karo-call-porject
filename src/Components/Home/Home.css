@@ -3,21 +3,29 @@
     display: inline-block;
 }
 
+body,
+html{
+   
+
+  font-family: "Open Sans", serif;
+ 
+}
+
 .text{
     position: absolute;
     top: 40%;
-    left: 50%;
+    left: 52%;
     transform: translate(-50%, -50%);
     color: white;
      
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-    /* text-align: center; */
+   
 }
  
 .shed{
     width: 300px;
     height: 57px;
-    box-shadow: 10px 0px 20px  ;
+ 
 } 
 
 .wu:hover{
@@ -41,10 +49,20 @@
 #visible{
     border: 1px solid white;
     height: 8px;
-    width:  220px;
+    width:  250px;
     background: orangered;
-    margin-left: 600px;
+    margin-left: 500px;
     border-radius: 10px;
+
+}
+
+#visibleHow{
+  border: 1px solid white;
+  height: 8px;
+  width:  250px;
+  background: orangered;
+  margin-left: 580px;
+  border-radius: 10px;
 
 }
 
@@ -117,7 +135,7 @@
 }
 
 .div-service{
-  margin-left:150px;
+  margin-left:130px;
 }
 
 .title{
@@ -127,7 +145,7 @@
 
 .service-div{
   border: 1px solid black;
-  height: 440px;
+  height: 420px;
   width: 370px;
   background: white;
   border: none;
@@ -152,7 +170,7 @@
   transform: translate(-50%, -50%);
   color: white;
    
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); */
   
 }
 
@@ -171,14 +189,14 @@
 }
  
 #visible3{
-
   border: 1px solid white;
   height: 8px;
-  width:  360px;
+  width:  500px;
   background: orangered;
-  margin-left: 600px;
+  margin-left: 500px;
   border-radius: 10px;
 }
+
 .box-user{
   width: 450px;
   height: 340px;
@@ -222,4 +240,87 @@
 .bg-booka:hover{
   background: orange;
   color: whitesmoke;
+}
+
+.service{
+  border: 1px solid black;
+  height: 70px;
+  width: px;
+  border-left: none;
+  border-top:none;
+  border-bottom:none;
+  
+} 
+
+/* responsive */
+@media(max-width:767px)
+{
+  .why-us{
+    position: relative;
+    right: 200px;
+    top: 100px;
+    width: 270px;
+  }
+ 
+  .box-user{
+    
+   overflow: hidden;
+   border:;
+     
+   
+  }
+  
+/*   
+.text2{
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: white;
+} */
+
+  
+ 
+  .resh{
+     position: relative;
+     left: 110px;
+  }
+  .exprience{
+    width: 400px;
+    position: relative;
+    left: 62px;
+  }
+  .expertise{
+    box-shadow: 12px 12px 15px;
+     margin-top: 15px;
+     position: relative;
+     right: 5px;
+     
+  }
+  .service{
+    
+   position: relative;
+   right: 100px;
+    border: none;
+  
+  }
+  .ser{
+    position: relative;
+    right: 110px;
+    bottom: 5px;
+  }
+  .vandana{
+    width: 250px;
+    height: auto;
+  }
+  #visible{
+    position: relative;
+    right: 410px;
+  }
+
+}
+
+#carouselExampleDark {
+  width: 40%; /* Adjust the width as per your requirement */
+  margin: 0 auto; /* To center it horizontally */
 }
