@@ -333,10 +333,10 @@ const Home = () => {
           </div>
         </div>
         <div className="col-md-12  roundeed-4 m-0 p-0 pb-4 mt-5 div-img">
-          <img src="https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="100%" height="600vh" alt="" className=''/>
+          <img src="https://images.pexels.com/photos/6205778/pexels-photo-6205778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="100%" height="700vh" alt="" className=''/>
           <div className="text2 w-100 px-5 row">
-            <div className="col-md-12   text-center mt-5">
-              <h3 className=' ps-5' style={{ color: "orangered" }}>CUSTOMER REVIEWS</h3>
+            <div className="col-md-12    text-center mt-5">
+              <h3 className=' ps-5 mt-5' style={{ color: "orangered" }}>CUSTOMER REVIEWS</h3>
               <h4 className='ps-5'>What our customer say...</h4>
               <div id="visible3" className=""></div>
             </div>

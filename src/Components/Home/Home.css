@@ -165,6 +165,7 @@ html{
 
 .text2{
   position: absolute;
+  width: 100%;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -198,8 +199,10 @@ html{
 }
 
 .box-user{
-  width: 450px;
-  height: 340px;
+  border: 1px solid black;
+  height: 400px;
+  width: auto;
+  border: none;
 }
 
 .zerone-div{
@@ -261,14 +264,7 @@ html{
     top: 100px;
     width: 270px;
   }
- 
-  .box-user{
-    
-   overflow: hidden;
-   border:;
-     
-   
-  }
+  
   
 /*   
 .text2{
